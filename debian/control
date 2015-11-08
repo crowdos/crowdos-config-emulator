@@ -1,0 +1,15 @@
+Source: crowdos-config-emulator
+Section: admin
+Priority: important
+Maintainer: Mohammed Sameer <msameer@foolab.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/crowdos/crowdos-config-emulator.git
+Vcs-Browser: https://github.com/crowdos/crowdos-config-emulator
+
+Package: crowdos-config-emulator
+Provides: crowdos-config
+Architecture: all
+Depends: ${misc:Depends}, linux-image-qemu, extlinux, qemu-custom-edid
+Description: Basic configurtion for emulator
+ Basic files and configuration needed for the emulator
